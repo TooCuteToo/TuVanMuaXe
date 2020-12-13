@@ -1,21 +1,17 @@
 /*====== Global declare ======*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  user-select: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*====== Layout ======*/
 
-/*------------ Body ------------*/
-body {
-  font-family: 'Montserrat', sans-serif;
-}
 
 /*------------ Navigation ------------*/
 nav {

@@ -62,6 +62,12 @@ for car in origin_car_list:
 
             "age": random.randint(20, 70),
             "outcome": car['price'] + random.randint(1000, 5000),
+
+            # 1: Phuot
+            # 2: Thanh pho
+            # 3: Dua xe
+            # 4: Trai nghiem
+            "habit": random.randint(1, 4),
         }
 
         clean_car_list.append(info)
